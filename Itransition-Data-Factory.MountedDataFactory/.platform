@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "MountedDataFactory",
+    "displayName": "Itransition-Data-Factory"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6def85da-c628-9f87-48cb-009059bee734"
+  }
+}
