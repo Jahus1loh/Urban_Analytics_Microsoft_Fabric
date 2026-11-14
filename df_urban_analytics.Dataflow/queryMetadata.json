@@ -1,0 +1,34 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "df_urban_analytics",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "Query": {
+      "queryId": "b8941a7c-cb64-4626-a1be-9d335c3bfe76",
+      "queryName": "Query",
+      "loadEnabled": false
+    },
+    "DefaultDestination": {
+      "queryId": "199ecd56-e7d1-4801-9aec-b289b1f393eb",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://api.worldbank.org/v2/country/USA/indicator/NY.GDP.MKTP.CD?format=json&per_page=100",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"9f4fa13a-30b8-4698-883e-c0d033997c70\",\"DatasourceId\":\"96c44d47-7a6f-4cbf-a476-182363c313f6\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"9f4fa13a-30b8-4698-883e-c0d033997c70\",\"DatasourceId\":\"ec1dadfa-16f1-4d41-ae52-774d48cec353\"}"
+    }
+  ]
+}
