@@ -7,9 +7,9 @@
   "queryGroups": [],
   "documentLocale": "en-GB",
   "queriesMetadata": {
-    "Query": {
+    "worldbank_gdp_usa": {
       "queryId": "b8941a7c-cb64-4626-a1be-9d335c3bfe76",
-      "queryName": "Query",
+      "queryName": "worldbank_gdp_usa",
       "loadEnabled": false
     },
     "DefaultDestination": {
