@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "nb_silver_worldbank_gdp"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7b0f1484-0ec3-86a6-430a-f12088d8f579"
+  }
+}
